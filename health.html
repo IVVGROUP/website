@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Background</title>
+    <link rel="stylesheet" href="style5.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="hero">
+        <header>
+            <div class="logo">
+                <img src="IVVTEST.png" alt="Logo">
+            </div>
+            <img src="burger-menu.png" alt="Menu Icon" class="ham">
+
+            <nav class="nav">
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="travel.html">Travel</a></li>
+                    
+                    <li><a href="career2.html">Careers</a></li>
+                    <li><a href="health.html">Health</a></li>
+                   
+                </ul>
+            </nav>
+        </header>
+
+
+       
+
+
+    <div class="Stats">
+        <P><h1>Health Is Wealth</h1><br>
+                <strong>Make 13.36% More Money </strong> <br>
+                <h5>Regular exercise is tied to a 13.36% higher income <br> on average. </h5><br>
+                    <strong>A Fit Body is now Worth $1 Million. </strong><br>
+                   <h5> Ai predicts in five years, a fit body will be <br> rarer than $1 million.</h5> <br>
+                   <strong>31.11% Higher IQ </strong> <br>
+                   <h5>People who exercise 4 times a week have a 31.11% higher IQ <br> than those who don't exercise.  </h5><br>
+                     
+                           
+        </P>
+        
+        </div>
+
+        <form action="https://formsubmit.co/contact@theivvgroup.com" method="POST">
+            <!-- Hidden Fields -->
+            <input type="hidden" name="_subject" value="Daily Workout Request!">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="thank-you.html"> <!-- Redirect after submission -->
+        
+            <!-- Full Name -->
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required placeholder="Enter your full name"><br><br>
+        
+            <!-- Email -->
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required placeholder="youremail@example.com"><br><br>
+        
+            <!-- Phone Number -->
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="1234567890" required><br><br>
+        
+            <!-- Fitness Level -->
+            <label for="fitness_level">Fitness Level:</label><br>
+            <select id="fitness_level" name="fitness_level" required>
+                <option value="">--Select Fitness Level--</option>
+                <option value="Beginner">Beginner</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+            </select><br><br>
+        
+            <!-- Workout Goals -->
+            <label for="workout_goals">Workout Goals:</label><br>
+            <textarea id="workout_goals" name="workout_goals" required placeholder="Weight loss, Strength building, Endurance training"></textarea><br><br>
+        
+            <!-- Preferred Workout Type -->
+            <label for="preferred_workout_type">Preferred Workout Type:</label><br>
+            <select id="preferred_workout_type" name="preferred_workout_type" required>
+                <option value="">--Select Workout Type--</option>
+                <option value="Strength Training">Strength Training</option>
+                <option value="Cardio">Cardio</option>
+                <option value="Yoga">Yoga</option>
+                <option value="HIIT">High Intensity Interval Training</option>
+                <option value="Mixed">Mixed (Strength & Cardio)</option>
+            </select><br><br>
+        
+            <!-- Preferred Time of Day -->
+            <label for="workout_time">Preferred Time of Day for Workout:</label><br>
+            <select id="workout_time" name="workout_time" required>
+                <option value="">--Select Time of Day--</option>
+                <option value="Morning">Morning</option>
+                <option value="Afternoon">Afternoon</option>
+                <option value="Evening">Evening</option>
+            </select><br><br>
+        
+            <!-- Submit Button -->
+            <button type="submit">Submit Request</button>
+        </form>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="Process">
+        <h2>Step 1: Fill Out Personalized Workout Plan</h2>
+        <h4> This helps us create a tailored exercise plan that aligns <br>
+             with your needs and sets you up for success from the start.
+            
+        </h4>
+       
+        <h2>Step 2: Receive Customized Workouts </h2> 
+        <h4>Based on your responses, you'll receive a personalized <br>
+            workout plan sent directly to you. We've got you covered <br>
+            with the right exercises to match your goals.
+            
+        </h4>
+
+        <h2>Step 3: See Results and Track Progress</h2>
+        <h4>With regular feedback and an ongoing fitness plan, <br>
+            you'll feel more confident every day as you get closer <br>
+            to reaching your fitness goals.
+            
+        </h4>
+    </div>
+
+
+
+
+
+
+
+
+    <video src="health.mp4" autoplay muted loop></video>
+</section>
+
+<script>
+    var toggle = document.querySelector(".ham");
+    var nav = document.querySelector(".nav");
+
+    toggle.addEventListener("click", function(e) {
+        nav.classList.toggle("active");
+    });
+</script>
+</body>
+
+</html>

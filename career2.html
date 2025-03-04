@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Background</title>
+    <link rel="stylesheet" href="style6.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="hero">
+        <header>
+            <div class="logo">
+                <img src="IVVTEST.png" alt="Logo">
+            </div>
+            <img src="burger-menu.png" alt="Menu Icon" class="ham">
+
+            <nav class="nav">
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="travel.html">Travel</a></li>
+                 
+                    <li><a href="career2.html">Careers</a></li>
+                    <li><a href="health.html">Health</a></li>
+                    
+                </ul>
+            </nav>
+        </header>
+
+       
+       <h3>It's not about what you know</h3> <br><br> <h2>It's about WHO YOU KNOW</h2><br><br>
+       
+        
+            <h3>We do ALL the work </h3><br> <br><h2>You RECEIVE a personalized solution.</h2> <br><br>
+
+            <h4>Get the jobs not on Indeed....</h4>
+        
+
+
+
+
+
+        <form action="https://formsubmit.co/contact@theivvgroup.com" method="POST">
+            <input type="hidden" name="_subject" value="New Job Application!">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="thank-you.html"> <!-- Redirect to thank-you.html after submission -->
+        
+            <label for="fname">Full Name:</label><br>
+            <input type="text" id="fname" name="fname" required><br><br>
+        
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+        
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="1234567890" required><br><br>
+        
+            <label for="industry">Preferred Industry:</label><br>
+            <select id="industry" name="industry" required>
+                <option value="">--Select Industry--</option>
+                <option value="IT">IT</option>
+                <option value="Healthcare">Healthcare</option>
+                <option value="Finance">Finance</option>
+                <option value="Education">Education</option>
+                <option value="Other">Other</option>
+            </select><br><br>
+        
+            <label for="job">Preferred Job:</label><br>
+            <input type="text" id="job" name="job" required><br><br>
+        
+            <label for="location">Desired Work Location:</label><br>
+            <input type="text" id="location" name="location" required placeholder="City, State or Remote"><br><br>
+        
+            <button type="submit">Submit Application</button>
+        </form>
+
+
+
+        
+            
+
+
+        <div class="Stats">
+            <P><h1>Follow The Stats</h1><br>
+                    <strong>85% of Jobs FOUND Through Networking </strong> <br>
+                    <h5>If you're only RELYING on online job applications, <br>you're MISSING out on a whole world of hidden opportunities. </h5><br>
+                        <strong>70% of Jobs Are NOT Published Online </strong><br>
+                       <h5> MAJORITY of positions are filled WITHOUT being posted online, <br>often through referrals and internal recommendations.</h5> <br>
+                       <strong>MOST Jobs on Indeed have 250+ Applicants </strong> <br>
+                       <h5>Job Boards Are OVERFLOWING with Applicants, <br>while only LESS than 2% get an interview. </h5><br>
+                           <strong>Hire 55% Faster than Job Boards </strong><br>
+                          <h5> Referalls come with PRE-EXISTING relationships, <br>Our hiring process is 55% FASTER, getting you to work sooner. </h5> 
+                            
+                               
+            </P>
+            
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <video src="Career.mp4" autoplay muted loop></video>
+    </section>
+
+
+
+
+    
+
+    <script>
+        var toggle = document.querySelector(".ham");
+        var nav = document.querySelector(".nav");
+
+        toggle.addEventListener("click", function(e) {
+            nav.classList.toggle("active");
+        });
+    </script>
+    </body>
+
+    </html>

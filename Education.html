@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Background</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="hero">
+        <header>
+            <div class="logo">
+                <img src="IVVTEST.png" alt="Logo">
+            </div>
+            <img src="burger-menu.png" alt="Menu Icon" class="ham">
+
+            <nav class="nav">
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="travel.html">Travel</a></li>
+                    <li><a href="Education.html">Education</a></li>
+                    <li><a href="Career.html">Careers</a></li>
+                    <li><a href="">Health</a></li>
+                    <li><a href="">Affiliates</a></li>
+                    <li><a href="">Global</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <div class="offer">
+        <p>The Best Skills Aren't Taught in School. <br><br>
+        Cater your Curriculum to <strong>Improve DIRECTLY In Making More Money!</strong> <br><br>
+        We did the hard part for you... By Curating Parterships with the <strong>BEST Programs In The World.</strong><br><br>
+        Valued at a Premium but Charged at a <strong>DISCOUNT.</strong> <br><br>
+        Underpromise and always Overdeliver -<strong><br>
+        Time To Check In. </strong>
+        </p>
+
+        <a href="Index.html" class="offer-button">Learn More</a>
+        </div>
+
+
+
+
+
+        
+
+        <video src="Education.mp4" autoplay muted loop></video>
+    </section>
+
+    <script>
+        var toggle = document.querySelector(".ham");
+        var nav = document.querySelector(".nav");
+
+        toggle.addEventListener("click", function(e) {
+            nav.classList.toggle("active");
+        });
+    </script>
+    </body>
+
+    </html>

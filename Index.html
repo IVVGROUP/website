@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Background</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="hero">
+        <header>
+            <div class="logo">
+                <img src="IVVTEST.png" alt="Logo">
+            </div>
+            <img src="burger-menu.png" alt="Menu Icon" class="ham">
+
+            <nav class="nav">
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="travel.html">Travel</a></li>
+                    <li><a href="career2.html">Careers</a></li>
+
+                    <li><a href="health.html">Health</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="content-wrap">
+            <div class="content">
+                <h1>Forge Your Future</h1><br>
+                <h2>DARE to Excel - BREAK FREE from the Average</h2>
+                <br><br>
+                <a href="career2.html">Contact Us</a>
+            </div>
+
+            <div class="social-icons">
+                <ul>
+                    <li><a href="travel.html"><img src="plane.png" alt="Travel"></a></li>
+
+                    <li><a href="career2.html"><img src="career.png" alt="Career"></a></li>
+                    <li><a href="health.html"><img src="health.png" alt="Health"></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <video src="Miami.mp4" autoplay muted loop></video>
+    </section>
+
+    <script>
+        var toggle = document.querySelector(".ham");
+        var nav = document.querySelector(".nav");
+
+        toggle.addEventListener("click", function(e) {
+            nav.classList.toggle("active");
+        });
+    </script>
+</body>
+<footer>&#169 2025 IVV Group. All Rights Reserved.</footer>
+</html>

@@ -1,0 +1,264 @@
+*{
+padding:0px;
+margin:0px;
+box-sizing: border-box;
+font-family: "Open Sans", serif;
+}
+
+.hero{
+background-color: #fff;
+padding: 50px 50px;
+width: 100%;
+height: 100vh;
+}
+header .logo img{
+width: 333px;
+        
+}
+header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+z-index: 6;
+position: relative;
+}
+header nav{
+    background-color: #000;
+    padding: 20px;
+    width: 24%;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 7;
+    transform: translateX(100%);
+    transition: .25s;
+}
+header nav.active{
+    transform: translateX(0%);
+}
+header nav a{
+color: #fff;
+font-size: 48px;
+padding: 20px;
+display: block;
+text-decoration: none;
+font-weight: bold;
+}
+        
+li {
+ list-style: none;
+}
+        
+        
+header .ham{
+width: 60px;
+padding: 10px;
+background-color:#fff;
+position: relative;
+z-index: 8;
+cursor: pointer;
+        
+}
+video{
+width: 100%;
+height: 100vh;
+position: absolute;
+top: 0px;
+left: 0px;
+object-fit: cover;
+z-index: 2;
+opacity: .4;
+}
+
+.offer {
+   /*background: white??*/
+    width: 400px;
+    
+    color: black;
+    font-weight: bold;
+    margin: 10px;
+    border-color: #000;
+    border-style: none;
+    border-width: 3px;
+    padding: 8px;
+    z-index: 10;
+    position: relative;
+    white-space: nowrap;
+    left:37px;
+    bottom: 50px;
+}
+
+
+
+
+
+.offer h1 {
+    font-size: 72px;
+    color: blue;
+    font-style: italic;
+
+}
+    
+.arrow {
+    font-size: 92px; /* Make just the arrow bigger */
+    
+}
+
+.offer h6 {
+    font-size: 44px;
+
+}
+
+
+
+
+
+form {
+    position: relative;
+    z-index: 12; /* Higher than the video */
+    border-color: #000;
+    border-style: solid;
+    border-width: 3px;
+    font-weight: bold;
+    padding: 15px; /* Smaller padding to reduce size */
+    border-radius: 10px;
+    width: 40%; /* Reduced form width to 40% */
+    max-width: 320px; /* Set max width to make it smaller */
+   
+    margin-top: 10%; /* Move form closer to the top of the page */
+    box-sizing: border-box; /* Include padding in width */
+    
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: soft shadow */
+    height: auto; /* Adjusted height to auto */
+    z-index: 11;
+    position: relative;
+    bottom: 800px;
+    left: 750px;
+}
+
+/* Style for input and select elements */
+input, select {
+    width: 100%; /* Inputs take up full width of form */
+    padding: 8px; /* Reduced padding for smaller fields */
+    margin-bottom: 8px; /* Space between inputs */
+    border-radius: 5px; /* Round the corners of inputs */
+    border: 1px solid #ccc; /* Border color for inputs */
+    box-sizing: border-box; /* Ensure padding is included in width */
+    background-color: #fff; /* Solid background for input fields */
+}
+
+/* Style for button */
+button {
+    width: 100%; /* Button takes full width of form */
+    padding: 12px; /* Reduced padding for smaller button */
+    background-color: #4CAF50; /* Green button background */
+    
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Round button corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-top: 10px; /* Space between inputs and button */
+    font-size: 14px; /* Slightly smaller font size */
+}
+
+button:hover {
+    background-color: blue; /*change color when hovering */
+}
+
+
+
+strong {
+color: blue;
+
+}
+
+
+
+.Numbers {
+    
+    Left: 1166px;
+    bottom: 1444px;
+    margin: 30px auto;
+    text-align: left;
+    font-size: 28px;
+    position: relative;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.Numbers h2 {
+    font-size: 48px;
+}
+
+.Reviews {
+    width: 490px;
+
+    color: black;
+    font-weight: bold;
+    margin: 30px;
+    border-color: #000;
+    border-style: solid;
+    border-width: 3px;
+    padding: 8px;
+    position: relative;
+    Left: 1133px;
+    Bottom: 1448px;
+    height: 400px;
+}
+
+.Reviews h3 {
+font-size: 30px
+}
+
+.Reviews h4 {
+font-size: 11px;
+font-style: italic;
+}
+
+.Reviews h5 {
+    font-size: 14px;
+    color: purple;
+}
+
+
+
+
+
+
+@media(max-width:767px){
+    .content h1{
+        font-size: 30px;
+}
+    .content h2{
+        font-size: 18px;
+    }
+}
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
