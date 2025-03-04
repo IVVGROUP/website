@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Background</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="hero">
+        <header>
+            <div class="logo">
+                <img src="IVVTEST.png" alt="Logo">
+            </div>
+            <img src="burger-menu.png" alt="Menu Icon" class="ham">
+
+            <nav class="nav">
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="travel.html">Travel</a></li>
+                    
+                    <li><a href="career2.html">Careers</a></li>
+                    <li><a href="health.html">Health</a></li>
+
+
+                </ul>
+            </nav>
+        </header>
+
+
+        <div class="offer">
+        <h1>How We Help You </h1>
+        <h6>1. Fill out Travel Details <span class="arrow">&#8594;<br></span><br>
+            2. Recieve Personalized offers <br><br>
+            3. Enjoy VACATION
+        </h6>
+       
+    </div>
+
+
+
+    
+    <div class="offer2">
+        <form action="https://formsubmit.co/contact@theivvgroup.com" method="POST" class="form-container">
+            <input type="hidden" name="_subject" value="New Travel Request!">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="thank-you.html">
+        
+            <!-- Left Column (Personal Details) -->
+            <div class="form-column">
+                <h2>Plan Your Dream Trip</h2>
+        
+                <label for="fname">Full Name:</label>
+                <input type="text" id="fname" name="fname" required>
+        
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="1234567890" required>
+            
+                <label for="destination">Preferred Destination(s):</label>
+                <input type="text" id="destination" name="destination" required placeholder="City, Country">
+        
+                <label for="departure">Departure Date:</label>
+                <input type="date" id="departure" name="departure_date" required>
+        
+                <label for="return">Return Date:</label>
+                <input type="date" id="return" name="return_date">
+        
+                <label for="trip_type">Type of Trip:</label>
+                <select id="trip_type" name="trip_type" required>
+                    <option value="">--Select Trip Type--</option>
+                    <option value="Adventure">Adventure</option>
+                    <option value="Beach Vacation">Beach Vacation</option>
+                    <option value="City Exploration">City Exploration</option>
+                    <option value="Cruise">Cruise</option>
+                    <option value="Luxury Travel">Luxury Travel</option>
+                    <option value="Honeymoon">Honeymoon</option>
+                    <option value="Family Trip">Family Trip</option>
+                </select>
+        
+                <label for="budget">Estimated Budget ($USD):</label>
+                <input type="number" id="budget" name="budget" placeholder="Enter your budget">
+            </div>
+        
+            <button type="submit">Submit Your Travel Request</button>
+        </form>
+    </div>
+
+<div class="Numbers">
+<P><h2>By The Numbers</h2>
+        <strong>Average Cost Per 5 Day Trip - </strong>$844 <br>
+            <strong>Client Referall - </strong>77% <br>
+            <strong>Trips within 48 Hours - </strong>33% <br>
+                
+                   
+</P>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="Reviews">
+<h3>Recent Client Tesimonials:</h3>
+
+<h5>Name: Sam & Grace Michael // Destination: Caribbean Sailing</h5>
+<h4> "The trip was great. We flew down to St Maarten for two days before boarding the ship.
+    Big parties every night. The ship anchored out and provided tender service that was excellent. 
+    Some of the places I had never heard of like Yost Van Dyke, Les Saintes, and Soper's Hole were a blast." </h4><br>
+
+    <h5>Name: Olivia Schneider // Destination: Cancun Riviera Maya</h5>
+    <h4> "I got this deal the day before and I couldn't have been happier!!!!!! I would suggest anyone doing this deal. It was inexpensive but the resort (Now Jade Riviera) was nuts!!
+Restauarants and pool-side bars every way you turn - NO RESERVATIONS REQUIRED, countless spa and beauty options, and unlimited amenities partnered with the resort."</h4><br>
+
+    <h5>Name: Ava Hanson // Destination: Norwegian Cruise from Miami</h5>
+        <h4>"We LOVED IT!!! Thanks for the upgrade, enjoyed the balcony and the 10th floor was a great location!! 
+            No problem at all the kids being on a different deck and so glad they had there room and we had ours.
+            I would recommend NCL to anyone, even my college-age girls who were worried that NCL wouldn’t be a party boat loved it. 
+            The NCL Crew were hilarious (loved Marky Mark the CD and Hector the Asst. CD) everyone just so happy to serve you and to make sure you were involved and having a great time. 
+            Plenty of food choices never went hungry or thirsty that’s for sure. 
+            Always something to do with the nightly shows and then the game show themes in the lounge after that. " </h4>
+
+
+
+
+</div>
+
+
+
+        <video src="travel.mp4" autoplay muted loop></video>
+    </section>
+
+    <script>
+        var toggle = document.querySelector(".ham");
+        var nav = document.querySelector(".nav");
+
+        toggle.addEventListener("click", function(e) {
+            nav.classList.toggle("active");
+        });
+    </script>
+    </body>
+
+    </html>
